@@ -64,8 +64,13 @@ INSTALL
 USAGE
 -----
 
-$ cd ./Programmers-Scroll
-$ ./doit.sh
+  $ cd ./Programmers-Scroll
+  $ cd ./perl/  see *.txt and *.pdf files there.
+
+  Re-create (compile/run) all files, maybe not all source codes Scrolls are working on your system out of the box.
+
+  $ ./doit.sh
+
 
 Generates .txt and .txt.pdf files.
 View the files and happy hacking :)
