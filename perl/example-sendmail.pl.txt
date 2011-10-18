@@ -1,0 +1,47 @@
+ 
+ 
+ 
+ 
+ 
+#!/usr/bin/perl
+use Mail::Send;
+  
+$body = "This is the body of the message";
+  
+#-- initialize the object
+$msg = new Mail::Send Subject=>'example subject', To=>'user1', Cc=>'user2@host';
+ 
+#-- launch mailer and set headers
+$fh = $msg->open;
+  
+#-- print the message body
+print $fh "Hello,\n";
+print $fh "$body\n";
+  
+#-- complete the message and send it
+$fh->close;
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- call command ----
+perl ./example-sendmail.pl 1 onestring2 arg3 with spaces "arg3 with spaces" "Arg 4 etc"
+ 
+ 
+ 
+ 
+---- stdout start ----
+---- stdout end ----
+ 
+ 
+ 
+ 
+---- stderr output start ----
+Can't locate Mail/Send.pm in @INC (@INC contains: /opt/local/lib/perl5/site_perl/5.12.3/darwin-multi-2level /opt/local/lib/perl5/site_perl/5.12.3 /opt/local/lib/perl5/vendor_perl/5.12.3/darwin-multi-2level /opt/local/lib/perl5/vendor_perl/5.12.3 /opt/local/lib/perl5/5.12.3/darwin-multi-2level /opt/local/lib/perl5/5.12.3 /opt/local/lib/perl5/site_perl /opt/local/lib/perl5/vendor_perl .) at ./example-sendmail.pl line 2.
+BEGIN failed--compilation aborted at ./example-sendmail.pl line 2.
+---- stderr output end ----

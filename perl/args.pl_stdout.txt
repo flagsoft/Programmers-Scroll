@@ -1,0 +1,11 @@
+Number of arguments: 7
+ARGV[0]=1
+ARGV[1]=onestring2
+ARGV[2]=arg3
+ARGV[3]=with
+ARGV[4]=spaces
+ARGV[5]=arg3 with spaces
+ARGV[6]=Arg 4 etc
+ARGV[7]=
+ARGV[8]=
+ARGV[9]=

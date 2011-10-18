@@ -1,0 +1,37 @@
+ 
+ 
+ 
+ 
+ 
+foreach $folder (@INC) { print "$folder\n"; }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- call command ----
+perl ./list-installed-perl-modules.pl 1 onestring2 arg3 with spaces "arg3 with spaces" "Arg 4 etc"
+ 
+ 
+ 
+ 
+---- stdout start ----
+/opt/local/lib/perl5/site_perl/5.12.3/darwin-multi-2level
+/opt/local/lib/perl5/site_perl/5.12.3
+/opt/local/lib/perl5/vendor_perl/5.12.3/darwin-multi-2level
+/opt/local/lib/perl5/vendor_perl/5.12.3
+/opt/local/lib/perl5/5.12.3/darwin-multi-2level
+/opt/local/lib/perl5/5.12.3
+/opt/local/lib/perl5/site_perl
+/opt/local/lib/perl5/vendor_perl
+.
+---- stdout end ----
+ 
+ 
+ 
+ 
+---- stderr output start ----
+---- stderr output end ----

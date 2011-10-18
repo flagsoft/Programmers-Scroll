@@ -1,0 +1,41 @@
+ 
+ 
+ 
+ 
+ 
+#!/usr/bin/perl
+ 
+use LWP::Simple;
+ 
+#-- fetch the zip and save it as perlhowto.zip
+my $status = getstore("http://www.perlhowto.com/archive.zip", "perlhowto.zip");
+ 
+if ( is_success($status) ) {
+  print "file downloaded correctly\n";
+} else {
+  print "error downloading file: $status\n";
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- call command ----
+perl ./download-file.pl 1 onestring2 arg3 with spaces "arg3 with spaces" "Arg 4 etc"
+ 
+ 
+ 
+ 
+---- stdout start ----
+error downloading file: 404
+---- stdout end ----
+ 
+ 
+ 
+ 
+---- stderr output start ----
+---- stderr output end ----

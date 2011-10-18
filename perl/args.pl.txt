@@ -1,0 +1,61 @@
+ 
+ 
+ 
+ 
+ 
+
+## Note: On UNIX like systems like Linux the shell interprets arguments first.
+##
+
+use strict;
+
+if ( @ARGV > 0 ) {
+  print "Number of arguments: " . scalar @ARGV . "\n";
+} else {
+  print "No arguments!\n";
+}
+
+printf "ARGV[0]=%s\n", $ARGV[0];
+printf "ARGV[1]=%s\n", $ARGV[1];
+printf "ARGV[2]=%s\n", $ARGV[2];
+printf "ARGV[3]=%s\n", $ARGV[3];
+printf "ARGV[4]=%s\n", $ARGV[4];
+printf "ARGV[5]=%s\n", $ARGV[5];
+printf "ARGV[6]=%s\n", $ARGV[6];
+printf "ARGV[7]=%s\n", $ARGV[7];
+printf "ARGV[8]=%s\n", $ARGV[8];
+printf "ARGV[9]=%s\n", $ARGV[9];
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- call command ----
+perl ./args.pl 1 onestring2 arg3 with spaces "arg3 with spaces" "Arg 4 etc"
+ 
+ 
+ 
+ 
+---- stdout start ----
+Number of arguments: 7
+ARGV[0]=1
+ARGV[1]=onestring2
+ARGV[2]=arg3
+ARGV[3]=with
+ARGV[4]=spaces
+ARGV[5]=arg3 with spaces
+ARGV[6]=Arg 4 etc
+ARGV[7]=
+ARGV[8]=
+ARGV[9]=
+---- stdout end ----
+ 
+ 
+ 
+ 
+---- stderr output start ----
+---- stderr output end ----

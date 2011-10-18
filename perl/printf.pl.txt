@@ -1,0 +1,41 @@
+ 
+ 
+ 
+ 
+ 
+printf("%%d 12    %d\n", 12);
+printf("%%d 12.5  %d\n", 12.5);
+printf("%%d 12.6  %d\n", 12.6);
+
+printf("%%f   12.6 :  %f\n", 12.6);
+printf("%%.0f 12.5 :  %.0f\n", 12.5);
+printf("%%.0f 12.6 :  %.0f\n", 12.6);
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- call command ----
+perl ./printf.pl 1 onestring2 arg3 with spaces "arg3 with spaces" "Arg 4 etc"
+ 
+ 
+ 
+ 
+---- stdout start ----
+%d 12    12
+%d 12.5  12
+%d 12.6  12
+%f   12.6 :  12.600000
+%.0f 12.5 :  12
+%.0f 12.6 :  13
+---- stdout end ----
+ 
+ 
+ 
+ 
+---- stderr output start ----
+---- stderr output end ----

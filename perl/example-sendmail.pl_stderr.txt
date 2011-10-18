@@ -1,0 +1,2 @@
+Can't locate Mail/Send.pm in @INC (@INC contains: /opt/local/lib/perl5/site_perl/5.12.3/darwin-multi-2level /opt/local/lib/perl5/site_perl/5.12.3 /opt/local/lib/perl5/vendor_perl/5.12.3/darwin-multi-2level /opt/local/lib/perl5/vendor_perl/5.12.3 /opt/local/lib/perl5/5.12.3/darwin-multi-2level /opt/local/lib/perl5/5.12.3 /opt/local/lib/perl5/site_perl /opt/local/lib/perl5/vendor_perl .) at ./example-sendmail.pl line 2.
+BEGIN failed--compilation aborted at ./example-sendmail.pl line 2.

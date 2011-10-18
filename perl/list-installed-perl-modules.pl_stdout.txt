@@ -1,0 +1,9 @@
+/opt/local/lib/perl5/site_perl/5.12.3/darwin-multi-2level
+/opt/local/lib/perl5/site_perl/5.12.3
+/opt/local/lib/perl5/vendor_perl/5.12.3/darwin-multi-2level
+/opt/local/lib/perl5/vendor_perl/5.12.3
+/opt/local/lib/perl5/5.12.3/darwin-multi-2level
+/opt/local/lib/perl5/5.12.3
+/opt/local/lib/perl5/site_perl
+/opt/local/lib/perl5/vendor_perl
+.

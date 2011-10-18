@@ -1,0 +1,31 @@
+ 
+ 
+ 
+ 
+ 
+#!/usr/bin/perl
+print "Hello World!\n";
+exit;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- call command ----
+perl ./helloworld.pl 1 onestring2 arg3 with spaces "arg3 with spaces" "Arg 4 etc"
+ 
+ 
+ 
+ 
+---- stdout start ----
+Hello World!
+---- stdout end ----
+ 
+ 
+ 
+ 
+---- stderr output start ----
+---- stderr output end ----

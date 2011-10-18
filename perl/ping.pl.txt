@@ -1,0 +1,36 @@
+ 
+ 
+ 
+ 
+ 
+#!/usr/bin/perl
+  
+use Net::Ping;
+  
+my $host = "192.168.0.1";
+my $p = Net::Ping->new();
+  
+print "$host is reachable\n" if ( $p->ping($host) );
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- call command ----
+perl ./ping.pl 1 onestring2 arg3 with spaces "arg3 with spaces" "Arg 4 etc"
+ 
+ 
+ 
+ 
+---- stdout start ----
+192.168.0.1 is reachable
+---- stdout end ----
+ 
+ 
+ 
+ 
+---- stderr output start ----
+---- stderr output end ----

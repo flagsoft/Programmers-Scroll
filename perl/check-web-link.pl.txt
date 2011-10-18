@@ -1,0 +1,47 @@
+ 
+ 
+ 
+ 
+ 
+#!/usr/bin/perl
+
+use LWP::Simple;
+
+if ( head("http://www.perlhowto.com") ) {
+  print "perlhowto.com is running!\n";
+} else {
+  print "Oops! site is down\n";
+}
+
+print "Check for: " . "http://www.thissitedoesnotexist1234.com";
+
+if ( head("http://www.thissitedoesnotexist1234.com") ) {
+  print "www.thissitedoesnotexist1234.com is running!\n";
+} else {
+  print "Oops! site is down\n";
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- call command ----
+perl ./check-web-link.pl 1 onestring2 arg3 with spaces "arg3 with spaces" "Arg 4 etc"
+ 
+ 
+ 
+ 
+---- stdout start ----
+perlhowto.com is running!
+Check for: http://www.thissitedoesnotexist1234.comOops! site is down
+---- stdout end ----
+ 
+ 
+ 
+ 
+---- stderr output start ----
+---- stderr output end ----

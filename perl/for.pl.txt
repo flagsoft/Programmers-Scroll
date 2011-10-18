@@ -1,0 +1,30 @@
+ 
+ 
+ 
+ 
+ 
+for ($a=0; $a<=10; $a++) {
+  print $a;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+---- call command ----
+perl ./for.pl 1 onestring2 arg3 with spaces "arg3 with spaces" "Arg 4 etc"
+ 
+ 
+ 
+ 
+---- stdout start ----
+012345678910---- stdout end ----
+ 
+ 
+ 
+ 
+---- stderr output start ----
+---- stderr output end ----
