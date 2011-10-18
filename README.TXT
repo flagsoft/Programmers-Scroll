@@ -3,6 +3,7 @@
 ##
 
 Usefull for programmers on Windows, Mac OS X and Linux, etc. with C/C++, PHP, Perl, C#, etc. (put your own language here).
+Target: To have little code snippets for every day usage - just copy&paste and share it from PDF or .txt files!
 
 The Programmers Scroll is released by Michael Mustun <michael.mustun@gmail.com>
 Based on a very old idea and project of mine the qi (Quick Info) copyright (c) 1990 - 2011 based on simple ASCII-Text source code files and little comments.
