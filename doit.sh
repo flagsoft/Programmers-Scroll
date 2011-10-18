@@ -17,7 +17,7 @@ echo "-- will do these files: $filelist"
 
 for a in $filelist; do
   echo "-- do file: $a"
-  ./_admin/_run.sh $a
+  ../_run/run.sh $a
 done
 
 
