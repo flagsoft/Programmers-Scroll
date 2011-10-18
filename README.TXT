@@ -2,6 +2,13 @@
 ## The Programmers Scroll (c) 2011 by Michael Mustun <michael.mustun@gmail.com>
 ##
 
+If you learn a new programming language it can be painfull because you know 
+already one. But within the new one all is just a little bit different from
+what you already know. - Would it be nice to have just a little note: How
+do I XY in Perl and PHP side by side?
+
+How do I XY in C and C# side by side?
+
 Usefull for programmers on Windows, Mac OS X and Linux, etc. with C/C++, PHP, Perl, C#, etc. (put your own language here).
 Target: To have little code snippets for every day usage - just copy&paste and share it from PDF or .txt files!
 
