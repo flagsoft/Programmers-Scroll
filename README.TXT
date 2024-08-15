@@ -1,5 +1,5 @@
 ##
-## The Programmers Scroll (c) 2011 by Michael Mustun <michael.mustun@gmail.com>
+## The Programmers Scroll
 ##
 
 If you learn a new programming language it can be painfull because you know 
